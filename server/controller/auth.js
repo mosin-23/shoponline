@@ -2,7 +2,7 @@ const jwt=require('jsonwebtoken')
 const User=require('../modal/userModal')
 const path=require('path')
 const fs=require('fs')
-const privateKey=process.env.PRIVATE_KEY;
+const privateKey=fs.readFileSync(path.resolve(__dirname,'../private.key'))
 const bcrypt=require('bcrypt')
 const createUser = async (req, res) => {
     try {
