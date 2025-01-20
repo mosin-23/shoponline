@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
 import kali from './kali2.png'
-axios.defaults.baseURL = 'https://ecom-qzh4.onrender.com';
+axios.defaults.baseURL = 'https://shoponline-e2qx.onrender.com';
 
 const LoginForm = ({ setlogged }) => {
     const [email, setEmail] = useState('');

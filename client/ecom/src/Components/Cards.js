@@ -5,7 +5,7 @@ import axios from 'axios';
 import Loader from './Loader';
 import { useNavigate } from 'react-router-dom';
 
-axios.defaults.baseURL = 'https://ecom-qzh4.onrender.com';
+axios.defaults.baseURL = 'https://shoponline-e2qx.onrender.com';
 
 const Cards = () => {
     const [data, setData] = useState([]);

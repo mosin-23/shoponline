@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { CountUp } from 'countup.js';
-axios.defaults.baseURL='https://ecom-qzh4.onrender.com'
+axios.defaults.baseURL='https://shoponline-e2qx.onrender.com'
 const Revenue = () => {
     const [rv, setRv] = useState({ totalRevenue: 0, totalOrders: 0 });
         const GetAmount=async()=>{

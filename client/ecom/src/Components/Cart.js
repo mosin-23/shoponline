@@ -3,7 +3,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
 import ConfirmDetails from './ConfirmDetails';
-axios.defaults.baseURL='https://ecom-qzh4.onrender.com'
+axios.defaults.baseURL='https://shoponline-e2qx.onrender.com'
 const Cart = ({setlogged}) => {
     const[cart,setcart]=useState([]);
     const[cartprice,setcartprice]=useState(0);

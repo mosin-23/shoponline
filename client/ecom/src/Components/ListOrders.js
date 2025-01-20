@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Checkmark } from 'react-checkmark'
 
-axios.defaults.baseURL = "https://ecom-qzh4.onrender.com";
+axios.defaults.baseURL = "https://shoponline-e2qx.onrender.com";
 
 const ListOrders = () => {
     const token = localStorage.getItem('authToken');

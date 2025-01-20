@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
-axios.defaults.baseURL='https://ecom-qzh4.onrender.com'
+axios.defaults.baseURL='https://shoponline-e2qx.onrender.com'
 const ManageOrders = ({setlogged}) => {
     const [orderdata,setdata]=useState([]);
     const GetOrders=async()=>{

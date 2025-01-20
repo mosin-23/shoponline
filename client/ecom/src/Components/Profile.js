@@ -4,7 +4,7 @@ import React from 'react'
 import ConfirmDetails from './ConfirmDetails';
 
 import profile from './profile.png'
-axios.defaults.baseURL="https://ecom-qzh4.onrender.com/"
+axios.defaults.baseURL="https://shoponline-e2qx.onrender.com/"
 const Profile =()=> {
     const[pdata,setpdata]=useState([]);
     const [isModalOpen, setIsModalOpen] = useState(false);

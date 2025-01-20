@@ -3,7 +3,7 @@ import axios from 'axios'
 import { useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-axios.defaults.baseURL='https://ecom-qzh4.onrender.com';
+axios.defaults.baseURL='https://shoponline-e2qx.onrender.com';
 const Users = ({setlogged}) => {
   const token=localStorage.getItem('authToken');
   const id=localStorage.getItem('id');
