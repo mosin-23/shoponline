@@ -1,0 +1,72 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between the cards */
+  padding: 20px; /* Padding around the cards container */
+}
+
+.card {
+  background-color: #fff; /* White background for the card */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 250px; /* Maximum width for the card */
+  text-align: center; /* Center text alignment */
+  transition: transform 0.3s; /* Smooth transition on hover */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.card img {
+  width: 100%; /* Full width for the image */
+  border-top-left-radius: 10px; /* Rounded corners on top */
+  border-top-right-radius: 10px; /* Rounded corners on top */
+}
+
+.card h2 {
+  font-size: 1.5em; /* Title font size */
+  margin: 10px 0; /* Margin above and below the title */
+}
+
+.card p {
+  font-size: 1.2em; /* Price font size */
+  color: #333; /* Dark color for the price text */
+}
+
+.card h3 {
+  font-size: 1em; /* Quantity font size */
+  color: #666; /* Lighter color for the quantity text */
+  margin: 10px 0; /* Margin above and below the quantity */
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+}
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  list-style: none;
+  margin-left: 310px;
+}
+li{
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  position: relative;
+  cursor: pointer;
+}
+li:hover{
+  font-size: larger;
+  background-color: aqua;
+  border-radius: 30%;
+  padding: fit-content;
+}
+hr{
+  background-color: #666;
+}
+span{
+  color: blueviolet;
+}
