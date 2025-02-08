@@ -11,7 +11,7 @@ const View = () => {
 
   const GetPro = async () => {
     try {
-      const resp = await axios.get(`product/${id}`, {
+      const resp = await axios.get(`/product/${id}`, {
         headers: {
           Authorization: localStorage.getItem('authToken'),
         },
